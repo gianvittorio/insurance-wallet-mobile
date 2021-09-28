@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:insurancewalletmobile/profile_page.dart';
-import 'models/Insurance.dart';
+import './models/insurance.dart';
 import './bottom_bar.dart';
 import 'Insurance_page.dart';
 
-import 'models/global.dart';
+import './models/global.dart';
 
 void main() => runApp(MyApp());
 

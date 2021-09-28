@@ -1,0 +1,15 @@
+version: '2.1'
+
+services:
+  app:
+    container_name: app
+    build: .
+    tty: true
+    ports:
+      - 8082:4040
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    name: app-network
